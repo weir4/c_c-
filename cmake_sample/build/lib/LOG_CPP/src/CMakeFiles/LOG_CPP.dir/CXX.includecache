@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/LOG_CPP/src/../include/LOG_CPP.h
+stdio.h
+-
+
+D:/exercise/C++_learn/cmake_sample/lib/LOG_CPP/src/LOG_CPP.cpp
+LOG_CPP.h
+D:/exercise/C++_learn/cmake_sample/lib/LOG_CPP/src/LOG_CPP.h
+
