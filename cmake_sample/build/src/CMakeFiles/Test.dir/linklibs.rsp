@@ -1,1 +1,0 @@
- -LD:/exercise/C++_learn/cmake_sample/lib ../../lib/libLOG_C.a ../../lib/libLOG_CPP.a ../../lib/libLOG_SHARED.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

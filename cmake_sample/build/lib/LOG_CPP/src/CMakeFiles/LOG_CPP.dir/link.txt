@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc ..\..\..\..\lib\libLOG_CPP.a  CMakeFiles/LOG_CPP.dir/LOG_CPP.obj
-C:\mingw64\bin\ranlib.exe ..\..\..\..\lib\libLOG_CPP.a

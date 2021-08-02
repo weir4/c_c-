@@ -1,7 +1,0 @@
-set(targetName Test)
-aux_source_directory(${source_dir} source_list)
-add_executable(${targetName} ${source_list})
-include_directories(${head_dir})
-include_directories(${lib_dir}/LOG_CPP/include)
-include_directories(${lib_dir}/LOG_SHARED/include)
-target_link_libraries(${targetName} LOG_C LOG_CPP LOG_SHARED)
