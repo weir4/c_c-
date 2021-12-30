@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/Test_Learn.dir/main.cpp.o CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o  -o ../bin/Debug/Test_Learn 

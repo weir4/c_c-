@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test_C++/Test_function/Test_function.h
+iostream
+-
+
+../test_C++/Test_ptr/Test_shared_ptr.h
+iostream
+-
+memory
+-
+string
+-
+
+/home/suntec02/test_learn/test_C++/Test_function/Test_function.cpp
+Test_function.h
+/home/suntec02/test_learn/test_C++/Test_function/Test_function.h
+iostream
+-
+
+/home/suntec02/test_learn/test_C++/Test_function/Test_function.h
+iostream
+-
+
+/home/suntec02/test_learn/test_main/main.cpp
+Test_shared_ptr.h
+/home/suntec02/test_learn/test_main/Test_shared_ptr.h
+Test_function.h
+/home/suntec02/test_learn/test_main/Test_function.h
+
