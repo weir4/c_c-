@@ -1,5 +1,0 @@
-/home/suntec02/test_learn/Debug/CMakeFiles/edit_cache.dir
-/home/suntec02/test_learn/Debug/CMakeFiles/rebuild_cache.dir
-/home/suntec02/test_learn/Debug/test_main/CMakeFiles/edit_cache.dir
-/home/suntec02/test_learn/Debug/test_main/CMakeFiles/rebuild_cache.dir
-/home/suntec02/test_learn/Debug/test_main/CMakeFiles/Test_Learn.dir
