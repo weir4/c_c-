@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suntec02/test_learn
+CMAKE_SOURCE_DIR = /home/cuiqiguo/Learn/c_c-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suntec02/test_learn/Debug
+CMAKE_BINARY_DIR = /home/cuiqiguo/Learn/c_c-/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suntec02/test_learn/Debug/CMakeFiles /home/suntec02/test_learn/Debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles /home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suntec02/test_learn/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

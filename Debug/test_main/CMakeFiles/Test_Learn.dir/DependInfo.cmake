@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suntec02/test_learn/test_C++/Test_function/Test_function.cpp" "/home/suntec02/test_learn/Debug/test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o"
-  "/home/suntec02/test_learn/test_main/main.cpp" "/home/suntec02/test_learn/Debug/test_main/CMakeFiles/Test_Learn.dir/main.cpp.o"
+  "/home/cuiqiguo/Learn/c_c-/test_C++/Test_function/Test_function.cpp" "/home/cuiqiguo/Learn/c_c-/Debug/test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o"
+  "/home/cuiqiguo/Learn/c_c-/test_main/main.cpp" "/home/cuiqiguo/Learn/c_c-/Debug/test_main/CMakeFiles/Test_Learn.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -g -D_LINUX -DCOMP_OPT_PCORE -D_DEBUG -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/suntec02/test_learn/test_C++/Test_ptr -I/home/suntec02/test_learn/test_C++/Test_function 
+CXX_INCLUDES = -I/home/cuiqiguo/Learn/c_c-/test_C++/Test_ptr -I/home/cuiqiguo/Learn/c_c-/test_C++/Test_function 
 

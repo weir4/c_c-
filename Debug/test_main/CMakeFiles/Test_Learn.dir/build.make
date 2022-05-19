@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suntec02/test_learn
+CMAKE_SOURCE_DIR = /home/cuiqiguo/Learn/c_c-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suntec02/test_learn/Debug
+CMAKE_BINARY_DIR = /home/cuiqiguo/Learn/c_c-/Debug
 
 # Include any dependencies generated for this target.
 include test_main/CMakeFiles/Test_Learn.dir/depend.make
@@ -59,16 +59,16 @@ include test_main/CMakeFiles/Test_Learn.dir/flags.make
 
 test_main/CMakeFiles/Test_Learn.dir/main.cpp.o: test_main/CMakeFiles/Test_Learn.dir/flags.make
 test_main/CMakeFiles/Test_Learn.dir/main.cpp.o: ../test_main/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suntec02/test_learn/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test_main/CMakeFiles/Test_Learn.dir/main.cpp.o"
-	cd /home/suntec02/test_learn/Debug/test_main && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test_Learn.dir/main.cpp.o -c /home/suntec02/test_learn/test_main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test_main/CMakeFiles/Test_Learn.dir/main.cpp.o"
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test_Learn.dir/main.cpp.o -c /home/cuiqiguo/Learn/c_c-/test_main/main.cpp
 
 test_main/CMakeFiles/Test_Learn.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test_Learn.dir/main.cpp.i"
-	cd /home/suntec02/test_learn/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suntec02/test_learn/test_main/main.cpp > CMakeFiles/Test_Learn.dir/main.cpp.i
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cuiqiguo/Learn/c_c-/test_main/main.cpp > CMakeFiles/Test_Learn.dir/main.cpp.i
 
 test_main/CMakeFiles/Test_Learn.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test_Learn.dir/main.cpp.s"
-	cd /home/suntec02/test_learn/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suntec02/test_learn/test_main/main.cpp -o CMakeFiles/Test_Learn.dir/main.cpp.s
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cuiqiguo/Learn/c_c-/test_main/main.cpp -o CMakeFiles/Test_Learn.dir/main.cpp.s
 
 test_main/CMakeFiles/Test_Learn.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ test_main/CMakeFiles/Test_Learn.dir/main.cpp.o.provides.build: test_main/CMakeFi
 
 test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o: test_main/CMakeFiles/Test_Learn.dir/flags.make
 test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o: ../test_C++/Test_function/Test_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suntec02/test_learn/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o"
-	cd /home/suntec02/test_learn/Debug/test_main && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o -c /home/suntec02/test_learn/test_C++/Test_function/Test_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o"
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o -c /home/cuiqiguo/Learn/c_c-/test_C++/Test_function/Test_function.cpp
 
 test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.i"
-	cd /home/suntec02/test_learn/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suntec02/test_learn/test_C++/Test_function/Test_function.cpp > CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.i
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cuiqiguo/Learn/c_c-/test_C++/Test_function/Test_function.cpp > CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.i
 
 test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.s"
-	cd /home/suntec02/test_learn/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suntec02/test_learn/test_C++/Test_function/Test_function.cpp -o CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.s
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cuiqiguo/Learn/c_c-/test_C++/Test_function/Test_function.cpp -o CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.s
 
 test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o.requires:
 
@@ -117,8 +117,8 @@ bin/Debug/Test_Learn: test_main/CMakeFiles/Test_Learn.dir/main.cpp.o
 bin/Debug/Test_Learn: test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o
 bin/Debug/Test_Learn: test_main/CMakeFiles/Test_Learn.dir/build.make
 bin/Debug/Test_Learn: test_main/CMakeFiles/Test_Learn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suntec02/test_learn/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/Debug/Test_Learn"
-	cd /home/suntec02/test_learn/Debug/test_main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test_Learn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/Debug/Test_Learn"
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test_Learn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test_main/CMakeFiles/Test_Learn.dir/build: bin/Debug/Test_Learn
@@ -131,10 +131,10 @@ test_main/CMakeFiles/Test_Learn.dir/requires: test_main/CMakeFiles/Test_Learn.di
 .PHONY : test_main/CMakeFiles/Test_Learn.dir/requires
 
 test_main/CMakeFiles/Test_Learn.dir/clean:
-	cd /home/suntec02/test_learn/Debug/test_main && $(CMAKE_COMMAND) -P CMakeFiles/Test_Learn.dir/cmake_clean.cmake
+	cd /home/cuiqiguo/Learn/c_c-/Debug/test_main && $(CMAKE_COMMAND) -P CMakeFiles/Test_Learn.dir/cmake_clean.cmake
 .PHONY : test_main/CMakeFiles/Test_Learn.dir/clean
 
 test_main/CMakeFiles/Test_Learn.dir/depend:
-	cd /home/suntec02/test_learn/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suntec02/test_learn /home/suntec02/test_learn/test_main /home/suntec02/test_learn/Debug /home/suntec02/test_learn/Debug/test_main /home/suntec02/test_learn/Debug/test_main/CMakeFiles/Test_Learn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cuiqiguo/Learn/c_c- /home/cuiqiguo/Learn/c_c-/test_main /home/cuiqiguo/Learn/c_c-/Debug /home/cuiqiguo/Learn/c_c-/Debug/test_main /home/cuiqiguo/Learn/c_c-/Debug/test_main/CMakeFiles/Test_Learn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test_main/CMakeFiles/Test_Learn.dir/depend
 

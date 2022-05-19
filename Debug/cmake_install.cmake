@@ -1,4 +1,4 @@
-# Install script for directory: /home/suntec02/test_learn
+# Install script for directory: /home/cuiqiguo/Learn/c_c-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/suntec02/test_learn/Debug/test_main/cmake_install.cmake")
+  include("/home/cuiqiguo/Learn/c_c-/Debug/test_main/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/suntec02/test_learn/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cuiqiguo/Learn/c_c-/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

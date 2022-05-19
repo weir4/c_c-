@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suntec02/test_learn
+CMAKE_SOURCE_DIR = /home/cuiqiguo/Learn/c_c-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suntec02/test_learn/Debug
+CMAKE_BINARY_DIR = /home/cuiqiguo/Learn/c_c-/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suntec02/test_learn/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/suntec02/test_learn/Debug/CMakeFiles /home/suntec02/test_learn/Debug/test_main/CMakeFiles/progress.marks
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suntec02/test_learn/Debug/CMakeFiles 0
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles /home/cuiqiguo/Learn/c_c-/Debug/test_main/CMakeFiles/progress.marks
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cuiqiguo/Learn/c_c-/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/clean
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/preinstall
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/preinstall
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suntec02/test_learn/Debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test_main/CMakeFiles/Test_Learn.dir/rule:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/CMakeFiles/Test_Learn.dir/rule
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f CMakeFiles/Makefile2 test_main/CMakeFiles/Test_Learn.dir/rule
 .PHONY : test_main/CMakeFiles/Test_Learn.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Test_Learn: test_main/CMakeFiles/Test_Learn.dir/rule
 
 # fast build rule for target.
 Test_Learn/fast:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/build
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/build
 .PHONY : Test_Learn/fast
 
 __/test_C++/Test_function/Test_function.o: __/test_C++/Test_function/Test_function.cpp.o
@@ -131,7 +131,7 @@ __/test_C++/Test_function/Test_function.o: __/test_C++/Test_function/Test_functi
 
 # target to build an object file
 __/test_C++/Test_function/Test_function.cpp.o:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.o
 .PHONY : __/test_C++/Test_function/Test_function.cpp.o
 
 __/test_C++/Test_function/Test_function.i: __/test_C++/Test_function/Test_function.cpp.i
@@ -140,7 +140,7 @@ __/test_C++/Test_function/Test_function.i: __/test_C++/Test_function/Test_functi
 
 # target to preprocess a source file
 __/test_C++/Test_function/Test_function.cpp.i:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.i
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.i
 .PHONY : __/test_C++/Test_function/Test_function.cpp.i
 
 __/test_C++/Test_function/Test_function.s: __/test_C++/Test_function/Test_function.cpp.s
@@ -149,7 +149,7 @@ __/test_C++/Test_function/Test_function.s: __/test_C++/Test_function/Test_functi
 
 # target to generate assembly for a file
 __/test_C++/Test_function/Test_function.cpp.s:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.s
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/__/test_C++/Test_function/Test_function.cpp.s
 .PHONY : __/test_C++/Test_function/Test_function.cpp.s
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/main.cpp.o
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/main.cpp.i
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,7 +176,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/suntec02/test_learn/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/main.cpp.s
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(MAKE) -f test_main/CMakeFiles/Test_Learn.dir/build.make test_main/CMakeFiles/Test_Learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suntec02/test_learn/Debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cuiqiguo/Learn/c_c-/Debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
