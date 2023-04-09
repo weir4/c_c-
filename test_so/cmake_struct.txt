@@ -1,0 +1,46 @@
+1.Project Build Step
+Set System Name
+Set Compiler Path And Compiler Lib Path
+Set Compiler Attribute(lib Search Path)
+Set Compiler VERSION(cmake_minimum_required(VERSION ..))
+Set Start Compiler Log(##ALLroot Start Build) Use message
+2.Project Build Generating Path
+Set Run And STATIC WITCH Lib Path
+
+Set(ProjectRoot)
+Set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY)
+Set(CMAKE_LIBRARY_OUTPUT_DIRECTORY)
+Set(CMAKE_RUNTIME_OUTPUT_DIRECTORY)
+
+3.Project Build Camke Path
+
+add_subdirectory()
+
+Project()
+
+
+4.Project Build Object Step
+
+Set ProjectName
+Set (INC_LIST)
+Set (SRC_LIST)
+Set (LOCAL_CXXFLAGS)
+Set (LINK_FLAGS)
+
+Start Build Start
+
+project($(ProjectName))
+
+include_directories(${INC_LIST})
+add_compile_options($LOCAL_CXXFLAGS)
+link_directories()
+
+add_executable()
+target_link_libraries()
+
+4.Project Grammar
+if(STREQUAL)
+else()
+endif()
+
+
