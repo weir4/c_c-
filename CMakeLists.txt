@@ -24,7 +24,9 @@ set(CMAKE_OSX_DEPLOYMENT_TARGET 10.12)
 
 add_compile_options(${LOCAL_CXXFLAGS})
 
+add_subdirectory(${PROJROOT}/test_DesignPattern)
 add_subdirectory(${PROJROOT}/test_main)
+
 
 
 
